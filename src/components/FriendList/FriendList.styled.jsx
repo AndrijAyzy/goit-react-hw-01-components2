@@ -8,8 +8,7 @@ export const List = styled.ul`
   margin: 0px auto;
   margin-bottom: 60px;
   padding: 30px 0;
-  border-radius: 10px;
-  box-shadow: 0px 5px 14px -2px rgba(0, 0, 0, 0.99);
+
 `;
 
 export const ListItem = styled.li`
@@ -19,8 +18,7 @@ export const ListItem = styled.li`
   align-items: center;
   margin: 0px auto;
   padding: 10px;
-  border-radius: 5px;
- 
+  border-radius: 0px;
   :not(:last-child) {
     margin-bottom: 20px;
   }

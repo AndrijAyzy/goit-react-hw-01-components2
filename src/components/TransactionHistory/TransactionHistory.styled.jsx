@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const TabelHistory = styled.table`
   font-family: 'Segoe UI';
 
-  background-color: #d8e4e6;
+  background-color: ##5bd1e3;
   width: 600px;
   margin: 0px auto;
   margin-bottom: 100px;
@@ -14,7 +14,7 @@ export const TabelHistory = styled.table`
 export const TableHeader = styled.th`
   height: 50px;
   text-align: center;
-  background-color: #87bdc1;
+  background-color: #5ed3db;
   border-bottom: 1px solid #8ba1a5;
   color: #fff;
   font-size: 14px;

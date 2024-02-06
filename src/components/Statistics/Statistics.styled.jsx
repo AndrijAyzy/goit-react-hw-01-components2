@@ -6,7 +6,7 @@ export const Section = styled.section`
   margin-bottom: 60px;
   box-shadow: 0px 5px 14px -2px rgba(0, 0, 0, 0.99);
   border-radius: 10px;
-  background-color: #d8e4e6;
+  background-color: #5bd1e3;
   color: #fff;
 `;
 
