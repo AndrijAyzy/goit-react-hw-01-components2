@@ -17,11 +17,13 @@ jobs:
           npm run lint:js
           npm run build
 
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build
+
       - name: Налаштування Git
         run: |
           git remote rm origin
           git remote add origin https://github.com/AndrijAyzy/goit-react-hw-01-components2.git
-
-        with:
-          branch: gh-pages
-          folder: build
